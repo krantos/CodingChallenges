@@ -47,3 +47,8 @@ CodingChallenges
         |   `-- ccwc (acá van los tests)
         `-- resources 
 ```
+4. Escribí el código y luego corré los tests con
+
+```shell
+mvn test
+```
