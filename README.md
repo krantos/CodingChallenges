@@ -15,3 +15,35 @@ ccwc -c test.txt
 ccwc -l test.txt
 7145 test.txt
 ```
+### Pasos para instalar el proyecto
+
+1. Descarga el proyecto usando git
+
+```shell
+git clone https://github.com/krantos/CodingChallenges.git
+```
+```shell
+cd CodingChallenges
+```
+
+2. Asegurarse de que el código compila
+
+```shell
+mvn compile
+```
+
+3. Asegurarse que existe la siguiente structura de carpetas, si no, crear las carpetas necesarias
+
+```shell
+CodingChallenges
+|-- pom.xml
+`-- src
+    |-- main
+    |   `-- java
+    |   |   `-- ccwc (acá van el código)
+    |   `-- resources
+    `-- test
+        `-- java
+        |   `-- ccwc (acá van los tests)
+        `-- resources 
+```
